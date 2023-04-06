@@ -1,0 +1,90 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  font-size: 18px;  /*tamaño de la letra*/
+  background-color: #f5f6f7;/*color de fondo*/
+}
+
+h1{
+  max-width: 940px;/*ancho maximo del titulo*/
+  font-size: 2.5em;/*tamaño de la letra em sig factor relativo del tamaño de la letra de su contenedr*/
+  font-family: Lato, sans-serif;/*uno u otro*/
+  font-weight: 700;/*grsor de la letra*/
+  line-height: 1.1;/*altura de la line para iterlineado*/
+  margin: 40px 0;/*margen sup-inf, der-izq*/
+}
+
+.App{
+  min-height: 100vh;/*altura min  de la aplicacion permite adapt a la altura del navegador  100% de la pantalla*/
+  display: flex;/*flex-box*/
+  flex-wrap: wrap;/*si un elemento toma todo el ancho del contenedor los demas elementos se colovcan abajo de el*/
+  align-items: center;/*alinea al centro verticalmente*/
+  justify-content:center ;/*centra horiontalmente*/
+  text-align:center ;/*centra el texto*/
+}
+
+.contenedor-principal{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------
+------------------------------------------------
+ .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ */

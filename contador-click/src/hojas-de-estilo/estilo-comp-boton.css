@@ -1,0 +1,29 @@
+button{
+  width: 150px;
+  height: 80px;
+  cursor: pointer; 
+  padding: 2%;
+  margin: 0 20px;
+  border-radius: 10%; 
+  color: aliceblue;
+  border-color: white;
+  margin: 10px;
+}
+button:hover{
+  background-color: gray
+}
+button:active{
+  background-color: black;
+}
+
+.boton-aumento{
+  background-color: green;
+}
+
+.boton-disminucion{
+  background-color: red;
+}
+
+.boton-reinicio{
+  background-color: orange;
+}

@@ -1,0 +1,41 @@
+.contenedor-tarea{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: gray;
+  color: beige;
+  min-height: 50px;
+  border-radius: 15px;
+  padding: 0 15px;
+  border: 2px solid bisque;
+  cursor: pointer;
+}
+
+.texto-tarea{
+  text-align: justify;
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  align-items: center;
+  height: 100%;
+  overflow-wrap: anywhere;
+  padding: 5px;
+  color: white;
+}
+.icono-eliminar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  padding: 5px;
+}
+.contenedor-tarea.completada{
+  background-color: blueviolet;
+  text-decoration: line-through;
+  color: white;
+}

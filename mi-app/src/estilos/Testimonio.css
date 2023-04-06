@@ -1,0 +1,44 @@
+.contenido-testimonio{
+  width: 1170px;
+  height: 368px;
+  margin: 10px 10px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0/9%);
+}
+
+.imagen-testimonio{
+  height: 100%;/*altura de la imagen*/
+  width: auto;/*ancho imagen*/
+
+}
+
+.contenedor-texto-testimonio{
+  text-align: center;/*alinear el text centro*/
+  padding: 40px;/*espacio dentro del contenedor*/
+  font-family: Lato, sans-serif;/*letra con respado*/
+  font-weight: 400; /*mas delgado*/
+  line-height: 1.5rem; /*interlineado*/
+}
+
+.nombre-testimonio{
+  font-size: 1.3rem;/*unidad relativa que toma el tamaño de la letra del elemento raiz*/
+/*nosotros al elemento raiz le agregamos 18px bueno este clase va a tomar ese valor y aplicara un 1.3 de ese numero*/
+}
+
+.cargo-testimonio{
+font-size: 1.3rem;/*tamaño de la letra*/
+margin-top: 15px;/*margen interno superior*/
+padding-bottom:30px ;/*margen interno inferior*/
+}
+
+.texto-testimonio{
+font-size: 1.1rem;/**/
+text-align: justify;/**/
+}
+
+#negrita{
+  font-weight: bold;
+}

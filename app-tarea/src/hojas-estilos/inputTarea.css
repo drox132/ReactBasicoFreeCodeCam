@@ -1,0 +1,25 @@
+.input-tarea-contenedor{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 10px;
+  min-height: 50px;
+  min-width: 650px;
+}
+.input-tarea{
+  display: flex;
+  text-align: justify;
+  width: 500px;
+  border: 2px solid green;
+  border-radius: 15px;
+  padding: 10px;
+  
+
+}
+.boton-tarea{
+  width: 120px;
+  border: 2px solid greenyellow;
+  background-color: green;
+  color: beige;
+  border-radius: 15px;
+}
